@@ -75,6 +75,7 @@ header {
 .top {
   background-image: url(../img/austin-distel-wawEfYdpkag-unsplash.png);
   background-size: cover;
+  background-position: center;
   height: 551px;
 }
 
