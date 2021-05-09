@@ -1,0 +1,236 @@
+body {
+  font-family: "Helvetica",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+ img {
+   width: 100%;
+   height: auto;
+ }
+
+ a {
+   text-decoration: none;
+   color: #333333;
+ }
+
+ .inner {
+   max-width: 980px;
+   margin: auto;
+ }
+
+
+
+/* ---- header ------ */
+header {
+  /* paddingやbackground-colorを記述 */
+  background: #fff;
+  height: 80px;
+}
+
+.header-inner {
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  justify-content: space-between;
+  max-width: 980px;
+}
+
+.header-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 179px;
+  height: 40px;
+}
+
+.header-title {
+  
+}
+
+.header-nav {
+  list-style: none;
+  display: flex;
+}
+
+.header-nav-item {
+  margin-top: 31px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 16px;
+  color: #333333;
+}
+
+/* ----- top -----  */
+.top {
+  background-image: url(../img/austin-distel-wawEfYdpkag-unsplash.png);
+  background-size: cover;
+  height: 551px;
+}
+
+.top-title {
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 254px;
+  
+  padding-left: 452px;
+  padding-right: 452px;
+}
+
+.top-contents {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+/* ----- challenge ------ */
+
+.contents-inner {
+  max-width: 980px;
+  /* ml mr auto で中央寄せにする */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contents-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 60px ;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.card-box {
+  box-shadow: 0px 3px 6px #00000029;
+  padding-bottom: 20px;
+}
+
+.card-img {
+  width: 310px;
+  height: 172px;
+}
+
+.card-txt p {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-right: 23px;
+  padding-bottom: 36px;
+  padding-left: 20px;
+}
+
+time {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: auto;
+}
+
+.contents-btn {
+  width: 310px;
+  height: 52px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background-color: #fff;
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 46px;
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s;
+  /* 文字の高さを保つ↓ paddingを調整するため */
+  line-height: 1.0; 
+  margin-bottom: 88px;
+}
+
+.contents-btn:hover {
+  opacity: 0.8;
+}
+
+.cta {
+  background-image: url(../img/tim-bogdanov-4uojMEdcwI8-unsplash.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-inner {
+  padding-top: 59px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 47px;
+}
+
+.cta-title {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.cta-txt {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.cta-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 19px 0;
+  width: 210px;
+  background-color: #83032A;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.cta-btn:hover {
+  opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  background-color: #333333;
+  color: #fff;
+  padding: 32px 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: .025;
+}
+
+
